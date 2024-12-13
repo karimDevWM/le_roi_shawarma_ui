@@ -1,0 +1,51 @@
+<div id="burger-filter" class="position-fixed top-0 start-0 p-3">
+  <button 
+    class="btn btn-dark"
+    *ngIf="!isMenuOpen"
+    (click)="toggleFilterModal()"
+    aria-label="Toggle Filters"
+  >
+    <i class="bi bi-list" style="font-size: 2rem;"></i>
+  </button>
+</div>
+
+<div 
+  id="filter-modal"
+  class="modal-filter position-fixed top-0 start-0 bg-light shadow-lg" style="width: 300px;"
+  [class.active]="isFilterModalOpen"
+>
+  <div class="d-flex flex-column h-100">
+    <button class="btn btn-outline-danger ms-auto m-2" (click)="toggleFilterModal()">
+      <i class="bi bi-x" style="font-size: 4rem;"></i>
+    </button>
+
+    <div class="p-3">
+      <h5>Filters</h5>
+      <ul class="list-group">
+        <li
+          *ngFor="let filter of filterss"
+          class="list-group-item list-group-item-action"
+          (click)="applyFilter(filter)"
+          [class.active]="filter.active"
+        >
+          {{ filter.name }}
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<section class="container cardes">
+    <div class="row">
+        <div class="col-12 p-5 col-md-6 col-lg-4 mb-4" *ngFor="let food of filteredCards;" [hidden]="!isVisible(food)">
+            <div class="card" style="width: 25rem; height: 15rem; background-color: black; border-radius: 30px">
+                <img src="{{ food.itemMainPhoto }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title" style="color: #ffd700;">{{ food.itemName }}</h5>
+                  <p class="p-3" style="color: #ffd700;">{{ food.itemDescription }}</p>
+                  <p class="card-text" style="color: #ffd700;">{{ food.itemPrice }}€</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

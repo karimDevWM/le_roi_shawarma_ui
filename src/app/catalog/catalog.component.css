@@ -1,0 +1,40 @@
+#burger-filter {
+  margin-top: 90px;
+  z-index: 1050; /* Ensure it stays above everything */
+}
+
+#filter-modal {
+  width: 25%; /* Quarter of the page */
+  height: 100%;
+  transform: translateX(-100%); /* Hidden by default */
+  transition: transform 0.3s ease-in-out;
+  z-index: 1049; /* Just below the burger button */
+}
+
+#filter-modal.active {
+  transform: translateX(0); /* Slide in */
+}
+
+.list-group-item {
+  cursor: pointer;
+}
+
+.list-group-item:hover {
+  background-color: #f8f9fa; /* Light hover effect */
+}
+
+.cardes{
+  margin-top: 100px;
+  margin-bottom: 200px;
+}
+
+.btn.btn-dark {
+  background-color: transparent !important; /* Remove the dark background */
+  border: none !important; /* Remove the border */
+  box-shadow: none !important; /* Remove any shadow */
+}
+
+.btn.btn-dark:hover {
+  background-color: transparent !important; /* Ensure no background on hover */
+  color: inherit !important; /* Keep the text color unchanged */
+}

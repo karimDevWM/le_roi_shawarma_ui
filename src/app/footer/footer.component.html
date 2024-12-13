@@ -1,0 +1,21 @@
+<footer class="container-fluide">
+    <div class="row">
+        <!--Map-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2783.209096866209!2d4.824845175291284!3d45.766999613185924!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4eb466f7f64b1%3A0x8132b2934468763c!2sLe%20Roi%20Shawarma!5e0!3m2!1sen!2sfr!4v1733573283960!5m2!1sen!2sfr" width="200" height="100" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        
+        <!--Address-->
+        <div class="col-12 col-md-6 col-lg-3 mb-4">
+            <i class="bi bi-geo-alt">{{ infos.address }} <br> {{ infos.postalCode }} {{ infos.city }}</i>
+        </div>
+
+        <!--Phone numbers-->
+        <div class="col-12 col-md-6 col-lg-3">
+            <div class="d-flex flex-column">
+                <a href="tel:{{ infos.cellularPhoneNumber }}"><i class="bi bi-phone"></i> Evitez d'attendre ! Commander</a>
+                <a href="tel:{{ infos.phoneNumber }}"><i class="bi bi-telephone"></i> Evitez d'attendre ! Commander</a>
+            </div>
+        </div>
+    </div>
+</footer>

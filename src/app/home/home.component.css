@@ -1,0 +1,6 @@
+.carousel-item img {
+    height: 800px; /* Adjust the height */
+    object-fit: cover;
+  }
+
+  
