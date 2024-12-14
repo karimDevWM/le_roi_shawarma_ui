@@ -6,11 +6,10 @@ import { Foods } from '../../model/food';
 import { filters } from '../api/filters';
 
 @Component({
-  selector: 'app-catalog',
-  standalone: true,
-  imports: [CommonModule],
-  templateUrl: './catalog.component.html',
-  styleUrl: './catalog.component.css'
+    selector: 'app-catalog',
+    imports: [CommonModule],
+    templateUrl: './catalog.component.html',
+    styleUrl: './catalog.component.css'
 })
 export class CatalogComponent {
 
