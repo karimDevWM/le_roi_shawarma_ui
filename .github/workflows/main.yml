@@ -1,9 +1,9 @@
 name: Deploy Images to GHCR
 
 on:
-  pull_request:
+  push: 
     branches:
-      - develop
+      - master
 jobs:
       push-store-image:
         runs-on: ubuntu-latest
