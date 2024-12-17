@@ -1,11 +1,11 @@
-<div id="burger-filter" class="position-fixed top-0 start-0 p-3">
+<div id="burger-filter" class="d-flex justify-content-center">
   <button 
     class="btn btn-dark"
     *ngIf="!isMenuOpen"
     (click)="toggleFilterModal()"
     aria-label="Toggle Filters"
   >
-    <i class="bi bi-list" style="font-size: 2rem;"></i>
+    <i class="bi-funnel">Filtre</i>
   </button>
 </div>
 
@@ -37,7 +37,7 @@
 
 <section class="container cardes">
     <div class="row">
-        <div class="col-12 p-5 col-md-6 col-lg-4 mb-4" *ngFor="let food of filteredCards;" [hidden]="!isVisible(food)">
+        <div class="d-flex justify-content-center col-12 col-md-6 col-lg-4 p-3" *ngFor="let food of filteredCards;" [hidden]="!isVisible(food)">
             <div class="card" style="width: 25rem; height: 15rem; background-color: black; border-radius: 30px">
                 <img src="{{ food.itemMainPhoto }}" class="card-img-top" alt="...">
                 <div class="card-body">

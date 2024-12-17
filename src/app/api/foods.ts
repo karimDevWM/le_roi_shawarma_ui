@@ -6,11 +6,7 @@ export const foods = [
         itemName: "MENU SHAWARMA POULET",
         itemDescription: "Pain Saj maison, Shawarma de Poulet, crème à l'ail, cornichons, frites, boissons",
         itemPrice: 12.00,
-        itemMainPhoto: "assets/images/MENU_SHAWARMA_POULET.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
+        itemMainPhoto: "assets/images/photo1.jpg",
     },
     {
         groupId: "MSS",
@@ -19,11 +15,7 @@ export const foods = [
         itemName: "SHAWARMA POULET",
         itemDescription: "Pain Saj maison, Shawarma de Poulet, crème à l'ail, cornichons",
         itemPrice: 8.00,
-        itemMainPhoto: "assets/images/SHAWARMA_POULET.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
+        itemMainPhoto: "assets/images/photo1.jpg",
     },
     {
         groupId: "MSS",
@@ -33,10 +25,6 @@ export const foods = [
         itemDescription: "Sandwich shawarma poulet découpé en bouchées accompagner de frites et de salade de chou traditionnelle",
         itemPrice: 10.00,
         itemMainPhoto: "assets/images/BOX_SHAWARMA_POULET_ARABIC.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "SV",
@@ -46,10 +34,6 @@ export const foods = [
         itemDescription: "Boulette croquante composée de pois chiche, épices douces, salade, tomate, crème de sésame, frites, boisson",
         itemPrice: 11.00,
         itemMainPhoto: "assets/images/MENU_SANDWICH_FALAFEL.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "SV",
@@ -59,10 +43,6 @@ export const foods = [
         itemDescription: "Boulette croquante composée de pois chiche, épices douces, salade, tomate, crème de sésame",
         itemPrice: 7.00,
         itemMainPhoto: "assets/images/SANDWICH_FALAFEL.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "SV",
@@ -72,10 +52,6 @@ export const foods = [
         itemDescription: "5 falafels, salade composée, houmous, servis avec du pain libanais",
         itemPrice: 10.00,
         itemMainPhoto: "assets/images/BOX_FALAFEL.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EF",
@@ -85,10 +61,6 @@ export const foods = [
         itemDescription: "Purée de pois chiche rehaussé de crèmme de sésames, jus de citron et un filet d'huile d'olive",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/HOUMOUS.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EF",
@@ -98,10 +70,6 @@ export const foods = [
         itemDescription: "Aubergines grillés, crème de sésames, jus de citron et un filet d'huile d'olive",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/MOUTABAL.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EF",
@@ -111,10 +79,6 @@ export const foods = [
         itemDescription: "Feuille de vigne farcie de riz, tomate fraîche, persils",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/WARAK_ENAB.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EF",
@@ -124,10 +88,6 @@ export const foods = [
         itemDescription: "Salade composée assaisonnée de sauce faite maison à base d'épices, huile d'olive, jus de citron et du pain grillé",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/FATTOUCHE.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EC",
@@ -137,10 +97,6 @@ export const foods = [
         itemDescription: "Baignet de viande hachée de boeuf",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/FATAYER_VIANDE.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EC",
@@ -150,10 +106,6 @@ export const foods = [
         itemDescription: "Fatayer au fromage",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/Fatayer_au_fromage.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EC",
@@ -163,10 +115,6 @@ export const foods = [
         itemDescription: "Baignet d'épinard citronnée avec oignon et sésames",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/SAMBUSSIK.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EC",
@@ -176,10 +124,6 @@ export const foods = [
         itemDescription: "",
         itemPrice: 5.00,
         itemMainPhoto: "assets/images/FALAFEL.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "EC",
@@ -189,10 +133,6 @@ export const foods = [
         itemDescription: "Boulette de blé farcie de viande hachée et d'oignon",
         itemPrice: 6.00,
         itemMainPhoto: "assets/images/KEBBE.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "MEN",
@@ -202,10 +142,6 @@ export const foods = [
         itemDescription: "avec frites et caprisun",
         itemPrice: 7.50,
         itemMainPhoto: "assets/images/MENU_TENDERS.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "MEN",
@@ -215,10 +151,6 @@ export const foods = [
         itemDescription: "sauce au choix, frites, caprisun",
         itemPrice: 7.50,
         itemMainPhoto: "assets/images/MENU_SHAWARMA_POULET.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "MET",
@@ -228,10 +160,6 @@ export const foods = [
         itemDescription: "Shawarma poulet, frites, boisson",
         itemPrice: 8.50,
         itemMainPhoto: "assets/images/MENU_SHAWARMA_POULET.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "MET",
@@ -241,10 +169,6 @@ export const foods = [
         itemDescription: "Sandwich falafel, frites, boisson",
         itemPrice: 8.50,
         itemMainPhoto: "assets/images/MENU_SANDWICH_FALAFEL.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "BOISS",
@@ -326,10 +250,6 @@ export const foods = [
         itemDescription: "Flan syrien au lait parfumé de fleur d'oranger, pistache",
         itemPrice: 4.00,
         itemMainPhoto: "assets/images/MOUHALABIEH.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "DESS",
@@ -339,10 +259,6 @@ export const foods = [
         itemDescription: "Mini crêpe syrienne fourrée de crème de noix avec un coulis de sirop au sucre",
         itemPrice: 4.00,
         itemMainPhoto: "assets/images/KATAYEF.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "DESS",
@@ -352,10 +268,6 @@ export const foods = [
         itemDescription: "",
         itemPrice: 4.00,
         itemMainPhoto: "assets/images/TIRAMISU.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "DESS",
@@ -365,10 +277,6 @@ export const foods = [
         itemDescription: "",
         itemPrice: 4.00,
         itemMainPhoto: "assets/images/TARTEAUDAIM.jpg",
-        itemPhotos:[
-            "assets/images/photo2.jpg",
-            "assets/images/photo3.jpg"
-        ]
     },
     {
         groupId: "SUP",

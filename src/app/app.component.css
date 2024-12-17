@@ -16,10 +16,7 @@
     color: #fff; /* Text color */
   }
   
-  .call-button i {
-    margin-right: 5px; /* Add space between icon and text */
-  }
   
-  .call-button:hover {
-    opacity: 0.9; /* Slight transparency effect on hover */
+  .call-button i {
+    margin-right: -20px;
   }

@@ -1,6 +1,5 @@
 #burger-filter {
   margin-top: 90px;
-  z-index: 1050; /* Ensure it stays above everything */
 }
 
 #filter-modal {
@@ -12,7 +11,7 @@
 }
 
 #filter-modal.active {
-  transform: translateX(0); /* Slide in */
+  transform: translateX(0);
 }
 
 .list-group-item {
@@ -20,11 +19,11 @@
 }
 
 .list-group-item:hover {
-  background-color: #f8f9fa; /* Light hover effect */
+  background-color: #f8f9fa;
 }
 
 .cardes{
-  margin-top: 100px;
+  margin-top: 20px;
   margin-bottom: 200px;
 }
 
